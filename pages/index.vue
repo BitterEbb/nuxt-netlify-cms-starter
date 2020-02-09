@@ -1,28 +1,16 @@
 <template>
   <div>
-    <logo />
-    <h1 class="title">Nuxt.js & Netlify CMS Starter</h1>
-    <h2 class="subtitle">Truly fantastic. Sometimes I astound even myself.</h2>
-    <a href="https://github.com/xdesro/nuxt-netlify-cms-starter">GitHub</a>
-    <a href="http://i.ncredibly.online">Twitter</a>
-    <nuxt-link to="/blog">Blog</nuxt-link>
-    <div class="deploy-button">
-      <a
-        href="https://app.netlify.com/start/deploy?repository=https://github.com/xdesro/nuxt-netlify-cms-starter"
-      >
-        <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
-      </a>
-    </div>
+    <h1 class="title">Bitter</h1>
+    <h2 class="subtitle">Ebb</h2>
+    <a href="https://www.youtube.com/channel/UCO1CMxB7ZFORHOmqLZxeShw?sub_confirmation=1">YouTube</a>
+    <a href="https://twitter.com/BitterEbb">Twitter</a>
+    <a href="https://www.twitch.tv/bittarlol">Twitch</a>
+    <a href="https://www.reddit.com/user/BitterBrb">Reddit</a>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  },
   head() {
     return {
       script: [
@@ -34,6 +22,10 @@ export default {
 </script>
 
 <style>
+body {
+  background: url('~assets/B logo.PNG') repeat;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -44,27 +36,26 @@ export default {
 }
 
 .title {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  font-family: -apple-system, BlinkMacSystemFont, 'Voice In My Head', Roboto,
     'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: bold;
-  font-size: 3.2rem;
-  color: #35495e;
+  font-size: 5.9rem;
+  color: #ccc;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 2rem;
-  color: #526488;
+  font-family: -apple-system, BlinkMacSystemFont, 'Voice In My Head', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 3rem;
+  color: #ccc;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
 a {
   font-weight: bold;
-  color: #526488;
-}
-.deploy-button {
-  margin-top: 1rem;
+  color: #ccc;
 }
 </style>
