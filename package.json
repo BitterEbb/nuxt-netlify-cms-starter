@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@nuxtjs/markdownit": "^1.2.6",
-    "nuxt": "^2.11.0"
+    "@nuxtjs/markdownit": "^1.2.8",
+    "nuxt": "^2.15.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
